@@ -7,14 +7,14 @@ The eject is done in order to make it possible our own configuration.
 
 The project also includes by default our own libraries:
 
-<li>[icgc-react-components](https://github.com/geostarters/icgc-react-components)</li>
-<li>[icgc-commons-js](https://github.com/geostarters/icgc-js-common)</li>
+* [icgc-react-components](https://github.com/geostarters/icgc-react-components)
+* [icgc-commons-js](https://github.com/geostarters/icgc-js-common)
 
 ### //TODO
 Add our linter configuration:
-[eslint-config-geostart](https://github.com/geostarters/eslint-config-geostart/;
+[eslint-config-geostart](https://github.com/geostarters/eslint-config-geostart/)
 
-(Now all the rules are set manually in the file .eslintrc)
+(Now all the rules are set manually in the .eslintrc file)
 
 ## Available Scripts
 
@@ -60,9 +60,9 @@ __src/components:__ Contains all the components used in the project
 
 * Uses [documentation.js](https://github.com/documentationjs/documentation) to generate a JSON file to be consumed by another package (see the [documenting the code](#documentation) section) (TODO: Ingest it with [@mapbox/batfish](https://github.com/mapbox/batfish)?)
 
-The documentation follows the [JSDoc](http://usejsdoc.org/about-getting-started.html) syntax. 
+* The documentation follows the [JSDoc](http://usejsdoc.org/about-getting-started.html) syntax. 
 
-To get started you can read the documentation.js start guide [here](https://github.com/documentationjs/documentation/blob/master/docs/GETTING_STARTED.md) or take a look at the provided example file [here](https://github.com/geostarters/js-project-template/blob/master/src/geo/latlon.js)
+* To get started you can read the documentation.js start guide [here](https://github.com/documentationjs/documentation/blob/master/docs/GETTING_STARTED.md) or take a look at the provided example file [here](https://github.com/geostarters/js-project-template/blob/master/src/geo/latlon.js)
 
 ## <a name="types"></a>Using types
 Using flow provides a way to check for common syntax errors while calling functions. Flow provides a simple example of which kind of problems it can solve in their [Type Annotations guide](https://flow.org/en/docs/types/). There's also a list of annotations it supports there.
