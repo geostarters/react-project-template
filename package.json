@@ -1,0 +1,33 @@
+{
+  "name": "react-project-template",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "icgc-react-components": "git+https://github.com/geostarters/icgc-react-components.git",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-scripts": "2.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "test-flow": "flow .",
+    "build-docs": "documentation build --github --format json --config ./docs/documentation.yml --output docs/components/api.json src/index.js",
+    "lint-docs": "documentation lint src/index.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "documentation": "^9.1.0",
+    "flow-bin": "^0.89.0"
+  }
+}
