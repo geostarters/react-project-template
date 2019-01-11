@@ -1,13 +1,14 @@
-// @flow 
+// @flow
 
 import React, { Component } from "react";
 import logo from "../logo.svg";
 import styles from "./App.module.css";
-import { Map, LogoICGC } from "icgc-react-components";
+import { Map, LogoICGC } from "@geostarters/react-components";
 
 class App extends Component {
 
 	render() {
+
 		return (
 			<div className="App">
 
@@ -21,14 +22,16 @@ class App extends Component {
 					<div className={styles.containerMap}>
 						<Map showAttribution={false}></Map>
 					</div>
-					<img src={logo} className={styles.AppLogo} alt="logo" />            
+					<img src={logo} className={styles.AppLogo} alt="logo" />
 				</div>
 
-				<LogoICGC className={styles.AppLogo}></LogoICGC>        
+				<LogoICGC className={styles.AppLogo}></LogoICGC>
 
 			</div>
 		);
+
 	}
+
 }
 
 export default App;
