@@ -28,6 +28,15 @@
   ],
   "devDependencies": {
     "documentation": "^9.1.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.13.1",
+    "enzyme-to-json": "^3.3.5",
+    "eslint-plugin-jest": "^22.5.1",
     "flow-bin": "^0.89.0"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   }
 }
