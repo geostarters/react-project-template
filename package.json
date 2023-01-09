@@ -27,7 +27,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "documentation": "^9.1.0",
+    "documentation": "^14.0.1",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.13.1",
     "enzyme-to-json": "^3.3.5",
